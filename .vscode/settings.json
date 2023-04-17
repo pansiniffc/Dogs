@@ -8,6 +8,6 @@
     "public": true,
     "LICENSE": true,
     "README.md": true,
-    ".gitattributes": true,
+    ".gitattributes": true
   }
 }
