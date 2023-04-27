@@ -46,12 +46,6 @@ a{
   margin: 0 auto;
 }
 
-.animeLeft {
-  opacity: 0;
-  transform: translateX(-20px);
-  animation: animeLeft .3s forwards;
-}
-
 .title {
   font-family: var(--type-second);
   line-height: 1;
@@ -73,6 +67,12 @@ a{
   left: -5px;
   border-radius: .2rem;
   z-index: -1;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft .3s forwards;
 }
 
 @keyframes animeLeft {
